@@ -1,0 +1,4 @@
+C:\Users\Vergi\source\repos\Lab01-About-Me-Quiz\About-Me-Quiz\About-Me-Quiz\obj\Debug\netcoreapp2.0\About-Me-Quiz.csprojResolveAssemblyReference.cache
+C:\Users\Vergi\source\repos\Lab01-About-Me-Quiz\About-Me-Quiz\About-Me-Quiz\obj\Debug\netcoreapp2.0\About-Me-Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Vergi\source\repos\Lab01-About-Me-Quiz\About-Me-Quiz\About-Me-Quiz\obj\Debug\netcoreapp2.0\About-Me-Quiz.AssemblyInfoInputs.cache
+C:\Users\Vergi\source\repos\Lab01-About-Me-Quiz\About-Me-Quiz\About-Me-Quiz\obj\Debug\netcoreapp2.0\About-Me-Quiz.AssemblyInfo.cs
