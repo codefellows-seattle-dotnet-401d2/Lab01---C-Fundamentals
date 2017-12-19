@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\bin\Debug\netcoreapp2.0\About-Me.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\bin\Debug\netcoreapp2.0\About-Me.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\bin\Debug\netcoreapp2.0\About-Me.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\bin\Debug\netcoreapp2.0\About-Me.dll
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\bin\Debug\netcoreapp2.0\About-Me.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.dll
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab01-About-Me-Quiz\About-Me\About-Me\obj\Debug\netcoreapp2.0\About-Me.csprojResolveAssemblyReference.cache
