@@ -14,15 +14,15 @@ namespace About_Me
         private static void StartQuiz()
         {
             Console.WriteLine("Thanks for stopping by my About Me Page! My name is Matt Iwicki");
-            int score = 0;
+            int correct = 0;
             string userInput;
             for (int i = 0; i <= 4; i++)
             {
                 Console.WriteLine(GetQuestion(i));
                 userInput = Console.ReadLine();
-                if (GetAnswer(i, userInput)) score++;
+                if (GetAnswer(i, userInput)) correct++;
             }
-            Console.WriteLine($"You scored {score} points.");
+            Console.WriteLine($"You got {correct} questions right! Thanks for playing!");
         }
 
         private static string GetQuestion(int i)
@@ -56,7 +56,7 @@ namespace About_Me
                     Console.WriteLine(answer + " is correct!");
                     return true;
                 default:
-                    Console.WriteLine(answer + " was incorrect!");
+                    Console.WriteLine(answer + " was incorrect, sorry!");
                     return false;
             }
         }
