@@ -1,82 +1,66 @@
 ﻿using System;
 
-namespace AboutMe
+namespace About_Me
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Thanks for visiting my About Me page!");
-            Console.WriteLine("I'm Matt, and you'll be answering questions about me! What's your name?");
-            string username = Console.ReadLine();
-            Console.WriteLine($"Welcome {username}, time to get into the questions!");
-            QuestionList();
-        }
-        private static string GiveHint()
-        {
-            string[] hints = new string[5];
-            hints[0] = "This country doesn't like Germany very much.";
-            hints[1] = "Which sport do you think would be the harder one?";
-            hints[2] = "It's not the Avengers!";
-            hints[3] = "It's not Pennsylvania!";
-            hints[4] = "It's a Japanese food!";
-            return hints[i];
+            StartQuiz();
+            Console.Write("Program terminating... Press Enter...");
+            Console.ReadLine();
         }
 
-        static void QuestionList()
+        private static void StartQuiz()
         {
-            string[] questions = new string[5];
-            questions[0] = "From which nation does my last name, Iwicki, originate?";
-            questions[1] = "Soccer and wrestling are my favorite sports, but in which sport did I compete for UW's collegiate team?";
-            questions[2] = "Which of these is my favorite movie franchise, Star Wars, Lord of the Rings, or the Avengers?";
-            questions[3] = "In which US State was I born, Washington, Virginia, or Pennsylvania?";
-            questions[4] = "What is my favorite food?";
-
-            string[] answers = new string[5];
-            answers[0] = "POLAND";
-            answers[1] = "WRESTLING";
-            answers[2] = "STAR WARS";
-            answers[3] = "VIRGINIA";
-            answers[4] = "SUSHI";
-
-            int Incorrect = 0;
-
-            for (int i = 0; i < questions.Length; i++)
+            Console.WriteLine("Thanks for stopping by my About Me Page! My name is Matt Iwicki");
+            int score = 0;
+            string userInput;
+            for (int i = 0; i <= 4; i++)
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.WriteLine(questions[i]);
-                    string response = Console.ReadLine().ToUpper();
-                    if (response == answers[i])
-                    {
-                        if (j == 0)
-                        {
-                            Console.WriteLine("Nice work, you got it first try!");
-                            j = 3;
-                        }
-                    }
-                    else
-                    {
-                        if (j == 2)
-                        {
-                            Console.WriteLine("Sorry, you're out of guesses!");
-                            Incorrect++;
-                        }
-                        else
-                        {
-                            Console.WriteLine("One guess left! Heres a hint to help:");
-                            Console.WriteLine(GiveHint(i));
-                        }
-                    }
-                }
-
+                Console.WriteLine(GetQuestion(i));
+                userInput = Console.ReadLine();
+                if (GetAnswer(i, userInput)) score++;
             }
-            Console.WriteLine($"You got {5 - Incorrect} questions correct!");
-            Console.WriteLine("Thanks for playing!");
-            Console.Read();
+            Console.WriteLine($"You scored {score} points.");
         }
 
+        private static string GetQuestion(int i)
+        {
+            switch (i)
+            {
+                case 0:
+                    return "From which nation does my last name, Iwicki, originate?";
+                case 1:
+                    return "Soccer and wrestling are my favorite sports, but in which sport did I compete for UW's collegiate team?";
+                case 2:
+                    return "Which of these is my favorite movie franchise, Star Wars, Lord of the Rings, or the Avengers?";
+                case 3:
+                    return "In which US State was I born, Washington, Virginia, or Pennsylvania?";
+                case 4:
+                    return "What is my favorite food?";
+                default:
+                    return "program error";
+            }
+        }
+
+        private static bool GetAnswer(int i, string answer)
+        {
+            switch (i)
+            {
+                case 0 when answer == "Poland":
+                case 1 when answer == "wrestling":
+                case 2 when answer == "Star Wars":
+                case 3 when answer == "Virginia":
+                case 4 when answer == "sushi":
+                    Console.WriteLine(answer + " is correct!");
+                    return true;
+                default:
+                    Console.WriteLine(answer + " was incorrect!");
+                    return false;
+            }
+        }
     }
 }
 
+            
