@@ -1,0 +1,4 @@
+C:\Users\Matt\source\repos\Lab01-About-Me-Quiz\Program.cs\Program.cs\obj\Debug\netcoreapp2.0\Program.cs.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\Lab01-About-Me-Quiz\Program.cs\Program.cs\obj\Debug\netcoreapp2.0\Program.cs.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\Lab01-About-Me-Quiz\Program.cs\Program.cs\obj\Debug\netcoreapp2.0\Program.cs.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\Lab01-About-Me-Quiz\Program.cs\Program.cs\obj\Debug\netcoreapp2.0\Program.cs.AssemblyInfo.cs
