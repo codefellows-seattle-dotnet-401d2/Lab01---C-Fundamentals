@@ -10,7 +10,7 @@ namespace About_Me
             Console.Write("Program terminating... Press Enter...");
             Console.ReadLine();
         }
-
+        //Setting up the score counter, counting based on correct answers, adding to a variable "correct"
         private static void StartQuiz()
         {
             Console.WriteLine("Thanks for stopping by my About Me Page! My name is Matt Iwicki");
@@ -24,7 +24,7 @@ namespace About_Me
             }
             Console.WriteLine($"You got {correct} questions right! Thanks for playing!");
         }
-
+        //First external method for questions, using string as return value for user inputs
         private static string GetQuestion(int i)
         {
             switch (i)
@@ -43,7 +43,7 @@ namespace About_Me
                     return "program error";
             }
         }
-
+        //Second external method for answers, using a boolean for return values as correct and incorrect
         private static bool GetAnswer(int i, string answer)
         {
             switch (i)
