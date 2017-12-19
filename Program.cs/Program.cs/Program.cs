@@ -4,10 +4,11 @@ namespace AboutMe
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("Thanks for visiting my About Me page!");
-            Console.WriteLine("I'm Matt, and you'll be answering questions about me!");
+            Console.WriteLine("I'm Matt, and you'll be answering questions about me! What's your name?");
             string username = Console.ReadLine();
             Console.WriteLine($"Welcome {username}, time to get into the questions!");
             QuestionList();
@@ -16,10 +17,10 @@ namespace AboutMe
         {
             string[] hints = new string[5];
             hints[0] = "This country doesn't like Germany very much.";
-            hints[0] = "Which sport do you think would be the harder one?";
-            hints[0] = "It's not the Avengers!";
-            hints[0] = "It's not Pennsylvania!";
-            hints[0] = "It's a Japanese food!";
+            hints[1] = "Which sport do you think would be the harder one?";
+            hints[2] = "It's not the Avengers!";
+            hints[3] = "It's not Pennsylvania!";
+            hints[4] = "It's a Japanese food!";
             return hints[i];
         }
 
@@ -52,6 +53,7 @@ namespace AboutMe
                         if (j == 0)
                         {
                             Console.WriteLine("Nice work, you got it first try!");
+                            j = 3;
                         }
                     }
                     else
@@ -74,6 +76,7 @@ namespace AboutMe
             Console.WriteLine("Thanks for playing!");
             Console.Read();
         }
+
     }
 }
 
