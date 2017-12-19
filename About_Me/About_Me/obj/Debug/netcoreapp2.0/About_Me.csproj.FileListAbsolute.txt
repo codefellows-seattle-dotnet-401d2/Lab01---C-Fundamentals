@@ -1,0 +1,11 @@
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\bin\Debug\netcoreapp2.0\About_Me.deps.json
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\bin\Debug\netcoreapp2.0\About_Me.runtimeconfig.json
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\bin\Debug\netcoreapp2.0\About_Me.runtimeconfig.dev.json
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\bin\Debug\netcoreapp2.0\About_Me.dll
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\bin\Debug\netcoreapp2.0\About_Me.pdb
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.csprojResolveAssemblyReference.cache
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.csproj.CoreCompileInputs.cache
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.AssemblyInfoInputs.cache
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.AssemblyInfo.cs
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.dll
+C:\Users\jeffmartinez\source\repos\Lab01-About-Me-Quiz\About_Me\About_Me\obj\Debug\netcoreapp2.0\About_Me.pdb
