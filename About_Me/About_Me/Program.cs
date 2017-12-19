@@ -6,17 +6,10 @@ namespace AboutMe
     {
         static void Main(string[] args)
         {
-            // About Me Quiz
-            // DONE: Include Main method
-            // DONE: external methods- (at least 3 non-void return types)(5 q's string, int,  string, string., ____)
-            // TODO: track number of correct/incorrect questions ("you got __ right")
-            // TODO: Exception Handling(try/catch/finally)(if user tries a weird input)
-            // TOMAYBE: use throw
-
             string result = Question1();
             int result2 = Question2();
             string result3 = Question3();
-            int result4 = Question4();
+            Int16 result4 = Question4();
             string result5 = Question5();
             Console.WriteLine(result);
             Console.ReadLine();
@@ -64,17 +57,31 @@ namespace AboutMe
         }
 
         
-        public static int Question4()
+        public static Int16 Question4()
         {
             Console.WriteLine("4.How many siblings do I have?");
-            int answer = int.Parse(Console.ReadLine());
-            return answer;
-
-           /* if (answer == 2)
+            //  int answer = int.Parse(Console.ReadLine());
+            // return answer;
+            /* if (answer == 2)
             {
                 return "Correct!";
             }*/
-            
+
+            if (Int16.TryParse(Console.ReadLine(), out Int16 answer))
+            {
+                return answer;
+            }
+            else
+            {
+                Console.WriteLine("Please put in a number");
+            }
+
+            return 0;
+
+
+
+
+
         }
 
         public static string Question5()
