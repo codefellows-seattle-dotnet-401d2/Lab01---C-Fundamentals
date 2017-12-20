@@ -34,8 +34,9 @@ Provide setup documentation
 	the questions can be answered and the user will receive a mesaage. After all questions are completed
 	the user will be shown the number of questions they got correct.
 	1. How do I run the program?
-
+	the program will once it has been compiled and will launch into terminal and pose a question to get the user ready to play.	
 	1. How do I know the program worked successfully?
+	you will be prompet with the number of question you have answered correctly and a message from the developer
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions
