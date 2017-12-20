@@ -9,12 +9,13 @@ namespace AboutMe
             string result = Question1();
             int result2 = Question2();
             string result3 = Question3();
-            Int16 result4 = Question4();
+            int result4 = Question4();
             string result5 = Question5();
-            Console.WriteLine(result);
+            Console.WriteLine("You got "+ score+"/5" + " correct");
             Console.ReadLine();
         }
 
+        public static int score = 0;
 
         public static string Question1()
         {
@@ -22,65 +23,42 @@ namespace AboutMe
             string answer = Console.ReadLine();
 
             if (answer == "yes")
-            {
-                return "Correct!";
-            }
-            else 
-            {
-                return "incorrect!";
-            }
+                score++;
+
+            return answer;
         }
 
         public static int Question2()
         {
             Console.WriteLine("2.How many countries have I visited?");
             int answer = int.Parse(Console.ReadLine());
-            return answer;
 
-            /*if (answer == 4)
-            {
-               // add to score;
-            }*/
+            if (answer == 4)
+               score++;
+
+            return answer;
         }
 
         public static string Question3()
         {
             Console.WriteLine("3.Do I like to go camping? yes/no");
             string answer = Console.ReadLine();
-            return answer;
 
-           /* if (answer == "yes")
-            {
-                return "Correct!";
-            }*/
-          
+            if (answer == "yes")
+                score++;  
+             
+            return answer;
         }
 
         
-        public static Int16 Question4()
+        public static int Question4()
         {
             Console.WriteLine("4.How many siblings do I have?");
-            //  int answer = int.Parse(Console.ReadLine());
-            // return answer;
-            /* if (answer == 2)
-            {
-                return "Correct!";
-            }*/
+            int answer = int.Parse(Console.ReadLine());
+            if (answer == 2)
+                score++;
 
-            if (Int16.TryParse(Console.ReadLine(), out Int16 answer))
-            {
-                return answer;
-            }
-            else
-            {
-                Console.WriteLine("Please put in a number");
-            }
-
-            return 0;
-
-
-
-
+            return answer;
 
         }
 
@@ -88,13 +66,24 @@ namespace AboutMe
         {
             Console.WriteLine("5.Do I love cats? yes/no");
             string answer = Console.ReadLine();
-            return answer;
 
-            /*if (answer1 == "yes")
+            if (answer == "no")
+                score++;
+            try
             {
-                return "Correct!";
-            }*/
-           
+                answer = ("yes");
+                answer = ("no");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                
+            }
+            finally
+            {
+                Console.WriteLine("Executed");
+            }
+            return answer;
         }
     }
 }
