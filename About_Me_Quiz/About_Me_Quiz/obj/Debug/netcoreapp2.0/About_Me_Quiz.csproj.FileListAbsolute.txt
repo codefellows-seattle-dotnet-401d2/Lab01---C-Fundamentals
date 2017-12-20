@@ -1,0 +1,11 @@
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\bin\Debug\netcoreapp2.0\About_Me_Quiz.deps.json
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\bin\Debug\netcoreapp2.0\About_Me_Quiz.runtimeconfig.json
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\bin\Debug\netcoreapp2.0\About_Me_Quiz.runtimeconfig.dev.json
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\bin\Debug\netcoreapp2.0\About_Me_Quiz.dll
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\bin\Debug\netcoreapp2.0\About_Me_Quiz.pdb
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.csprojResolveAssemblyReference.cache
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.csproj.CoreCompileInputs.cache
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.AssemblyInfoInputs.cache
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.AssemblyInfo.cs
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.dll
+C:\Users\nyque\source\repos\Lab01-About-Me-Quiz\About_Me_Quiz\About_Me_Quiz\obj\Debug\netcoreapp2.0\About_Me_Quiz.pdb
