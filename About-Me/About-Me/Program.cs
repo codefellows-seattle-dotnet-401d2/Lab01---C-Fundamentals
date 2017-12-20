@@ -58,7 +58,7 @@ namespace About_Me
             string[] yesArray= {"y","Y","yes","YES", "Yes", "Yeah", "yeah", "Okay", "okay", "OK", "ok", "Ok"};
             Console.Write("Would you like to enable hints?: ");
             string userInput = Console.ReadLine();
-            //using array of possible ways to answer "yes" to so I can compare input against
+            // using array of possible ways to answer "yes" to so I can compare input against
             foreach (string yes in yesArray)
             {
                 if (userInput == yes)
@@ -74,10 +74,10 @@ namespace About_Me
         /// <summary>
         /// Will write lines to the screen (hints to questions) dependant on counter number passed in that matches with current question.
         /// </summary>
-        /// <param name="i"></param>
+        /// <param name="i">Passed in iterator from a for loop</param>
         private static void PrintHint(int i)
         {
-            //needs to have same number of case statements as GetQuestion()
+            // needs to have same number of case statements as GetQuestion()
             switch (i)
             {
                 case 0:
@@ -102,10 +102,10 @@ namespace About_Me
         }
 
         /// <summary>
-        /// 
+        /// Function for returning a specific question as a string depending on passed in number.
         /// </summary>
-        /// <param name="i"></param>
-        /// <returns></returns>
+        /// <param name="i">Passed in iterator from a for loop</param>
+        /// <returns>String</returns>
         private static string GetQuestion(int i)
         {
             switch (i)
@@ -126,14 +126,16 @@ namespace About_Me
         }
 
         /// <summary>
-        /// 
+        /// Tests whether a certain answer to a question is correct. Case numbers matches the same numbers in GetQuestion().
         /// </summary>
-        /// <param name="i"></param>
-        /// <param name="answer"></param>
-        /// <returns></returns>
+        /// <param name="i">Passed in iterator from a for loop</param>
+        /// <param name="answer">userInput passed in</param>
+        /// <returns>True or False if answer to question was correct.</returns>
         private static bool GetAnswer(int i, string answer)
         {
             answer = answer.ToLower();
+            // Originally wrote this as if statements under each case statement, but the IDE recommended I refactor using the when clause.
+            // Will match the case on the current question AND if the answer to that question is correct. Success of any case execute the code under case 4.
             switch (i)
             {
                 case 0 when answer == "42":
