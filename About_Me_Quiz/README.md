@@ -28,8 +28,13 @@ Provide setup documentation
 - Provide a readme that includes clear directions on setting up this program.
 - Questions to Consider: 
 	1. What programs do I need installed?
+	I needed to have visual studio 2017, github and git installed to make the program work. 
 	1. What are the step by step directions?
+	The user will be promted to eneter their name and be given a set of questions to answer.
+	the questions can be answered and the user will receive a mesaage. After all questions are completed
+	the user will be shown the number of questions they got correct.
 	1. How do I run the program?
+
 	1. How do I know the program worked successfully?
 
 ## Rubric
